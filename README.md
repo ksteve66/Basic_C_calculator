@@ -1,1 +1,3 @@
-this code is meant to solve basic math operations, which include; addition, subtraction, multiplication, and division to 2 decimal places
+the main.c file is a c calculator which was built using the switch-case method
+
+the if-main.c file was built using the if-elseif-else statements

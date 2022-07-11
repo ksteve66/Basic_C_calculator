@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
-* main.c
-* Basic calculator (+, -, *, /)
+* main - is meant to solve basic maths operations
+* Return: 0
 */
 
 int main(void)
@@ -11,11 +11,11 @@ int main(void)
 	char op;
 	double num1, num2;
 
-	printf("enter an operator between (+, -, *, /): ");
-	scanf("%c", &op);
-
 	printf("enter the first number: ");
 	scanf("%lf", &num1);
+
+	printf("enter an operator between (+, -, *, /): ");
+	scanf("%c", &op);
 
 	printf("enter the second number: ");
 	scanf("%lf", &num2);
